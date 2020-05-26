@@ -1,0 +1,3 @@
+﻿  源.cpp
+d:\大三下学期\软件与系统安全\实验\实验三-内存分配\project1\project1\源.cpp(11): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“char *”
+  Project1.vcxproj -> D:\大三下学期\软件与系统安全\实验\实验三-内存分配\Project1\Debug\Project1.exe
