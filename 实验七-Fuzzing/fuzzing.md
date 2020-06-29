@@ -14,7 +14,7 @@
 
 ### 环境搭建
 
-####qemu安装
+#### qemu安装
 
 1. [教程]((https://www.freebuf.com/vuls/228726.html))中漏洞分析的基础环境为前期的Ubuntu18.04虚拟机和基于qemu-4.0.0源码编译安装的Qemu运行环境，因此先安装qemu
 
@@ -193,16 +193,15 @@
 
 * 修改fat.py中的执行权限、firmadyne的路径`firmadyne_path`以及root密码`root_pass`
 
-      ```bash
-      sudo chmod +x fat.py
-  
-      sudo vim fat.py
-      #Configurations - change this according to your system
-      firmadyne_path = "/home/firmware-analysis-toolkit/firmadyne"
-      binwalk_path = "/usr/local/bin/binwalk"
-      root_pass = "toor"#当前系统密码
-      firmadyne_pass = "firmadyne"#数据库密码
-      ```    
+    ```bash
+    sudo chmod +x fat.py
+    sudo vim fat.py
+    #Configurations - change this according to your system
+    firmadyne_path = "/home/firmware-analysis-toolkit/firmadyne"
+    binwalk_path = "/usr/local/bin/binwalk"
+    root_pass = "toor"#当前系统密码
+    firmadyne_pass = "firmadyne"#数据库密码
+    ```    
 
     ![ ](images/修改fat.png)
 
