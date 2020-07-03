@@ -2,27 +2,28 @@
 
 1. 安装php，我选择安装了phpstudy，这样配置比较容易，安装后的界面如图
 
-![ ](images/phpstudy.png)
+   ![ ](images/phpstudy.png)
 
 2. 编写xss跨站脚本攻击代码，代码分为前端(index.html)和后端(xss.php)。自己制作的网页中有一个文本框，可以用来提交内容。如果有用户提交恶意脚本，则浏览器会执行脚本。   
 
 
 3. 在phpstudy创建网页时会有一个路径，要记下来后面需要使用
 
-![ ](images/网页路径.png)
+   ![ ](images/网页路径.png)
 
 4. 将自己写好的代码复制到刚才记下的路径下
 
-![ ](images/代码路径.png)
+   ![ ](images/代码路径.png)
 
 5. 在浏览器输入http://localhost/xss.php，可以弹出我们自己制作的网页，在文本框中输入
-``` 
-   <script>alert('hack')</script>
-```
-并点击提交，可以看到弹出窗口，实现跨站脚本攻击。
-![ ](images/实现效果.png)
 
-* [实验结果录屏](https://www.bilibili.com/video/bv1Rp4y1Q7mc)
+   ``` html
+      <script>alert('hack')</script>
+   ```
+   并点击提交，可以看到弹出窗口，实现跨站脚本攻击。
+    ![ ](images/实现效果.png)
+
+* [实验效果录屏](https://www.bilibili.com/video/BV1Rp4y1Q7mc?from=search&seid=12701500201241288491)
 
 # 知识梳理
 
